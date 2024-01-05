@@ -6,16 +6,6 @@ from Player import PlayerType, Player
 from RuleCondition import RuleCondition, ConditionType
 from SpecialRule import SpecialRule
 
-rule = {
-    "name": "keeper goal",
-    "type": "particular",
-    "event": "score",
-    "condition": {
-        "player": "goalkeeper"
-    },
-    "value_factor": "x2"
-}
-
 
 class MyTestCase(unittest.TestCase):
 
