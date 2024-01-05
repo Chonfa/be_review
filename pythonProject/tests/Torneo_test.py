@@ -1,14 +1,14 @@
 import unittest
 
-from Event import Event
+from src.Event import Event
 from MatchTime import MatchTime
-from RuleCondition import RuleCondition, ConditionType
-from SingleRule import SingleRule
+from src.RuleCondition import RuleCondition, ConditionType
+from src.SingleRule import SingleRule
 
-from Partido import Partido
-from Torneo import Torneo
-from MatchRule import MatchRule
-from SideRule import SideRule
+from src.Partido import Partido
+from src.Torneo import Torneo
+from src.MatchRule import MatchRule
+from src.SideRule import SideRule
 
 GOAL_EVENT = Event(event_type="score", time=MatchTime("1"), player="Claudio Lopez")
 SINGLE_MATCH = Partido("Racing", "Independiente", [GOAL_EVENT], [])

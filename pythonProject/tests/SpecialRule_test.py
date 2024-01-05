@@ -1,10 +1,10 @@
 import unittest
 
-from Event import Event
+from src.Event import Event
 from MatchTime import MatchTime
-from Player import PlayerType, Player
-from RuleCondition import RuleCondition, ConditionType
-from SpecialRule import SpecialRule
+from src.Player import PlayerType, Player
+from src.RuleCondition import RuleCondition, ConditionType
+from src.SpecialRule import SpecialRule
 
 
 class MyTestCase(unittest.TestCase):

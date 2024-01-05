@@ -1,5 +1,5 @@
 from Rule import Rule
-from RuleCondition import ConditionType, RuleCondition
+from src.RuleCondition import ConditionType, RuleCondition
 from WrongConditionException import WrongConditionException
 
 

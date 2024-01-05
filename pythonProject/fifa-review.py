@@ -1,14 +1,14 @@
 import json
 from pprint import pprint
 
-from Event import Event
-from MatchRule import MatchRule
+from src.Event import Event
+from src.MatchRule import MatchRule
 from MatchTime import MatchTime
-from Partido import Partido
-from RuleCondition import RuleCondition
-from SideRule import SideRule
-from SingleRule import SingleRule
-from Torneo import Torneo
+from src.Partido import Partido
+from src.RuleCondition import RuleCondition
+from src.SideRule import SideRule
+from src.SingleRule import SingleRule
+from src.Torneo import Torneo
 import argparse
 
 

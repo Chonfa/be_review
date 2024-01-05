@@ -1,11 +1,11 @@
 import unittest
 
-from Event import Event
+from src.Event import Event
 from MatchTime import MatchTime
-from Player import Player, PlayerType
-from RuleCondition import RuleCondition, ConditionType
+from src.Player import Player, PlayerType
+from src.RuleCondition import RuleCondition, ConditionType
 
-from SingleRule import SingleRule
+from src.SingleRule import SingleRule
 from WrongConditionException import WrongConditionException
 
 BATALLA = Player("Batalla", PlayerType.goalkeeper)

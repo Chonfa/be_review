@@ -1,4 +1,4 @@
-from MatchRule import MatchRule
+from src.MatchRule import MatchRule
 from Rule import Rule
 
 
